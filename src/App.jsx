@@ -143,6 +143,7 @@ const App = () => {
     }
   }
 
+  // updateDomain only after minted a domain
   const updateDomain = async () => {
     if (!record || !domain) {
       return;
